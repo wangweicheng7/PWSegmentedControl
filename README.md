@@ -9,6 +9,21 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+For using.
+
+```
+	PWSegmentedControl *seg = [[PWSegmentedControl alloc] initWithItems:@[@"最好玩",@"个性化",@"最好玩",@"个性化"]];
+    seg.layer.cornerRadius = 13;
+    seg.layer.masksToBounds = YES;
+    seg.tintView.layer.cornerRadius = 13;
+    seg.tintColor = [UIColor purpleColor];
+    seg.selectedSegmentIndex = 3;
+    [seg itemDidSelected:^(NSUInteger index) {
+        NSLog(@"%ld",index);
+    }];
+    self.navigationItem.titleView = seg;
+```
+
 ## Requirements
 
 ## Installation
