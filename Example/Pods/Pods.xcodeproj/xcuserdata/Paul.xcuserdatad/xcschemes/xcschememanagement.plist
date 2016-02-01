@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PWSegmentedControl-PWSegmentedControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PWSegmentedControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PWSegmentedControl_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PWSegmentedControl_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1F3F90FF2DE16D8555F6A6499A6F18C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83C0C471C1E7C780C33F55E4D95324EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ADC9F2F3F4AF3058044A12AE4918404D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C35266BCC3B4455E88FED60B974BC1B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

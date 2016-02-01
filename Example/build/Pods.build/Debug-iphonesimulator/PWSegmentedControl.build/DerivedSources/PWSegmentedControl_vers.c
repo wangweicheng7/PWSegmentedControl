@@ -1,0 +1,1 @@
+ const unsigned char PWSegmentedControlVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:PWSegmentedControl  PROJECT:Pods-1" "\n"; const double PWSegmentedControlVersionNumber __attribute__ ((used)) = (double)1.;

@@ -1,0 +1,14 @@
+PODS:
+  - PWSegmentedControl (0.1.0)
+
+DEPENDENCIES:
+  - PWSegmentedControl (from `../`)
+
+EXTERNAL SOURCES:
+  PWSegmentedControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PWSegmentedControl: bfbf482d391b449b528ed847d9acc9243ed3ebb4
+
+COCOAPODS: 0.39.0

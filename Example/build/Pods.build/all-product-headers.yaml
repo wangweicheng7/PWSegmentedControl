@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Paul/Documents/Github/PWSegmentedControl/PWSegmentedControl/Example/build/Debug-iphonesimulator/PWSegmentedControl.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PWSegmentedControl-Swift.h",
+          'external-contents': "/Users/Paul/Documents/Github/PWSegmentedControl/PWSegmentedControl/Example/build/Debug-iphonesimulator/PWSegmentedControl.framework/Headers/PWSegmentedControl-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PWSegmentedControl-umbrella.h",
+          'external-contents': "/Users/Paul/Documents/Github/PWSegmentedControl/PWSegmentedControl/Example/Pods/Target Support Files/PWSegmentedControl/PWSegmentedControl-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Paul/Documents/Github/PWSegmentedControl/PWSegmentedControl/Example/build/Debug-iphonesimulator/PWSegmentedControl.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Paul/Documents/Github/PWSegmentedControl/PWSegmentedControl/Example/build/Pods.build/Debug-iphonesimulator/PWSegmentedControl.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
