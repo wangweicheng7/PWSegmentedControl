@@ -27,6 +27,7 @@
     seg.tintView.layer.cornerRadius = 13;
     seg.tintColor = [UIColor purpleColor];
     seg.selectedSegmentIndex = 3;
+    seg.normalColor = [UIColor redColor];
     [seg itemDidSelected:^(NSUInteger index) {
         NSLog(@"%ld",index);
     }];

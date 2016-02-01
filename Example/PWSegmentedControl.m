@@ -8,7 +8,7 @@
 
 #import "PWSegmentedControl.h"
 
-#define kDefaultItemWidth     60
+#define kDefaultItemWidth     60.0f
 #define kDefaultTag           21210
 
 @interface PWSegmentedControl (){
@@ -24,6 +24,7 @@
 @end
 
 @implementation PWSegmentedControl
+@synthesize normalColor = _normalColor;
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -55,6 +56,8 @@
     _itemWidth = frame.size.width/_titleMutArray.count;
 }
 
+
+
 #pragma mark - getters
 - (UIView *)tintView {
     if (!_tintView) {
@@ -70,6 +73,13 @@
     return super.tintColor?super.tintColor:[UIColor blueColor];
 }
 
+- (UIColor *)normalColor {
+    if (!_normalColor) {
+        _normalColor = [UIColor whiteColor];
+    }
+    return _normalColor;
+}
+
 #pragma mark - setters
 - (void)setSelectedSegmentIndex:(NSInteger)selectedSegmentIndex {
     _selectedSegmentIndex = selectedSegmentIndex;
@@ -78,6 +88,11 @@
 
 - (void)setTintColor:(UIColor *)tintColor {
     super.tintColor = tintColor;
+    [self resetUI];
+}
+
+- (void)setNormalColor:(UIColor *)normalColor {
+    _normalColor = normalColor;
     [self resetUI];
 }
 
@@ -108,12 +123,15 @@
     NSUInteger i = 0;
     for (NSString *title in _titleMutArray) {
         UILabel *bgLabel = (UILabel *)[_bgLabelArray objectAtIndex:i];
+        bgLabel.backgroundColor = self.normalColor;
         bgLabel.frame = CGRectMake(i * _itemWidth, 0, _itemWidth, _itemHeight);
         bgLabel.textColor = self.tintColor;
         bgLabel.text = title;
         bgLabel.tag = kDefaultTag + i;
         // 添加高亮Label
         UILabel *label = (UILabel *)[_labelArray objectAtIndex:i];
+        label.backgroundColor = self.tintColor;
+        label.textColor = self.normalColor;
         label.frame = bgLabel.frame;
         label.text = title;
         i ++;

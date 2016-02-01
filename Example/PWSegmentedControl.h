@@ -21,6 +21,7 @@ typedef void(^PWSegmentSelectBlock)(NSUInteger index);
 
 @property(nonatomic) NSInteger selectedSegmentIndex;
 @property(null_resettable,nonatomic,strong) UIColor *tintColor;
+@property(nullable,nonatomic,strong) UIColor *normalColor;
 - (void)setTitleTextAttributes:(nullable NSDictionary *)attributes forState:(UIControlState)state;
 - (void)addTarget:(nullable id)target action:(nullable SEL)action;
 - (void)itemDidSelected:(nullable PWSegmentSelectBlock)segmentBlock;
