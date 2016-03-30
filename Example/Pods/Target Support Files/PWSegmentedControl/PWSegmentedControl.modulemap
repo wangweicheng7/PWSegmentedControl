@@ -1,6 +1,0 @@
-framework module PWSegmentedControl {
-  umbrella header "PWSegmentedControl-umbrella.h"
-
-  export *
-  module * { export * }
-}

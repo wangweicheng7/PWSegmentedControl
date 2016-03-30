@@ -10,3 +10,5 @@ target 'PWSegmentedControl_Tests', :exclusive => true do
 
   
 end
+
+pod 'AMScrollingNavbar', '~> 2.0.1'
