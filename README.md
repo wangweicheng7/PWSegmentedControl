@@ -1,5 +1,6 @@
 # PWSegmentedControl
 
+![logo](https://github.com/wangweicheng7/blog/blob/gh-pages/images/logo.png)
 [![CI Status](http://img.shields.io/travis/Paul Wang/PWSegmentedControl.svg?style=flat)](https://travis-ci.org/Paul Wang/PWSegmentedControl)
 [![Version](https://img.shields.io/cocoapods/v/PWSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/PWSegmentedControl)
 [![License](https://img.shields.io/cocoapods/l/PWSegmentedControl.svg?style=flat)](http://cocoapods.org/pods/PWSegmentedControl)
